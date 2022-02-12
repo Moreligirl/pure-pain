@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Page title -->
+  <title>Hello, world!</title>
+  <!-- Page favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- CSS FILES -->
+  <!-- my css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- CSS END -->
+
+</head>
+
+<body>
+  <!-- <div class="bg-dark bg-success bg-opacity-50" style="width: 100%; height: 100%; position: absolute; z-index: -1;"></div> PENDINGCHANGE -->
+
+  <!-- PAGE START -->
+  <div class="container-fluid min-vh-100 position-relative bg-dark">
+
+    <!-- HEADER START -->
+    <header id="header" class="card row p-0 border-0">
+      <div class="bg-dark card-img" style="height: 100%; width: 100%; opacity: 0.5; position: absolute; top: 0;"></div>
+
+      <div class="card-img-overlay text-center align-items-center h-100 w-100 row">
+
+        <h1 class="display-1 text-light">Web Design</h1>
+        <h2 class="text-light fw-lighter fst-italic">You're in pain? So am I.</h2>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- NAVBAR START -->
+    <nav class="row sticky-top">
+      <div class="col p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary bg-gradient text-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- page body or something idk PENDINGCHANGE -->
+    <section class="row gx-3" style="min-height: 1000px;">
+
+      <!-- side content left -->
+      <section class="col-3">
+
+        <div class="list-group fs-6 fw-light bg-dark text-light" id="list-tab" role="tablist">
+
+          <a class="list-group-item list-group-item-action bg-dark text-light active" id="list-home-list"
+            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+            Home</a>
+
+          <div class="list-group-item bg-dark text-light">HTML</div>
+          <a class="list-group-item list-group-item-action bg-dark text-light" id="list-basicHTML-list"
+            data-bs-toggle="list" href="#list-basicHTML" role="tab" aria-controls="list-basicHTML">
+            <i class="bi bi-chevron-right"></i>
+            Basic HTML</a>
+          <a class="list-group-item list-group-item-action bg-dark text-light" id="list-profile-list"
+            data-bs-toggle="list" href="#list-semanticHTML" role="tab" aria-controls="list-semanticHTML">
+            <i class="bi bi-chevron-right"></i>
+            Semantic HTML</a>
+          <div class="list-group-item bg-dark text-light">CSS</div>
+          <a class="list-group-item list-group-item-action bg-dark text-light" id="list-selectorsCSS-list"
+            data-bs-toggle="list" href="#list-selectorsCSS" role="tab" aria-controls="list-selectorsCSS">
+            <i class="bi bi-chevron-right"></i>
+            CSS Selectors</a>
+        </div>
+      </section>
+
+      <!-- MAIN CONTENT -->
+      <main class="col-9 container text-light tab-content p-3" id="list">
+
+        <!-- home -->
+        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+
+
+          <h2>Welcome</h2>
+          <p>Fuck this shit, I'll finish this another time</p>
+        </div>
+        <!-- page 2 -->
+        <div class="tab-pane fade" id="list-basicHTML" role="tabpanel" aria-labelledby="list-basicHTML-list">
+
+          <h2>pain</h2>
+        </div>
+
+        <!-- page 1 -->
+        <div class="tab-pane fade" id="list-semanticHTML" role="tabpanel" aria-labelledby="list-semanticHTML-list">
+
+          <h2>love</h2>
+          <p>love is just a figment of our imagination</p>
+        </div>
+        <div class="tab-pane fade" id="list-selectorsCSS" role="tabpanel" aria-labelledby="list-selectorsCSS-list">
+          <h1>hello</h1>
+        </div>
+
+
+      </main>
+      <!-- MAIN CONTENT END -->
+
+    </section>
+    <!-- end page body or something PENDINGCHANGE -->
+
+
+    <!-- FOOTER START -->
+    <footer class="row bg-secondary position-absolute bottom-0 w-100 p-3 text-white small fw-light">
+      <div class="col-4">
+        <h5>links</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">An item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">A second
+              item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">A third
+              item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">A fourth
+              item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">And a fifth
+              one</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <h5>contact</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">An item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">A second
+              item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">A third
+              item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">A fourth
+              item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">And a fifth
+              one</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <h5>pain</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">An item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">A second
+              item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">A third
+              item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">A fourth
+              item</a>
+          </li>
+          <li class="list-group-item  bg-transparent text-light border-0"><a href="#" class="link-light">And a fifth
+              one</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+  </div>
+  <!-- PAGE END -->
+
+
+  <!-- ADDITIONAL SCRIPTS -->
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <!-- SCRIPTS END -->
+</body>
+
+</html>
